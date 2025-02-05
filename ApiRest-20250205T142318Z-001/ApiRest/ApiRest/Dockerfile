@@ -19,4 +19,4 @@ COPY --from=build /app/out .
 EXPOSE 80
 
 # Comando de inicio de la aplicación
-ENTRYPOINT ["dotnet", "NombreDeTuProyecto.dll"]
+ENTRYPOINT ["dotnet", "ApiRest.dll"]
